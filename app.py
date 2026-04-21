@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("house_price_tree_model.pkl")
+model = joblib.load("./house_price_tree_model.pkl")
 
 st.title("House Price Prediction App")
 st.write("This app predicts the price of a house based on its features.")
